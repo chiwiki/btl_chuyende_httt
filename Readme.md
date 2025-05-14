@@ -18,6 +18,7 @@ Nếu phát hiện nội dung nhạy cảm, hệ thống sẽ:
 ### 1. Clone dự án
 
 ```bash
+mkdir btl
 git clone https://github.com/chiwiki/btl_chuyende_httt.git
 cd btl_chuyende_httt
 ```
