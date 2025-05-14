@@ -52,14 +52,15 @@ npm start
 
 - Chuyển đến thư mục frontend
 
-````bash
+```bash
 cd frontend
+```
 
 - Tạo biến môi trường
 
 ```bash
 cp .env.example .env
-````
+```
 
 - Nếu chạy lần đầu thì tải thư viện node_modules vào trong dự án
 
