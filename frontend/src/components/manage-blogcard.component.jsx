@@ -36,7 +36,8 @@ export const ManagePublishedBlogCard = ({ blog }) => {
   let [showStat, setShowStat] = useState(false);
   let [popup, setPopup] = useState(false);
 
-  let { blog_id, activity, banner, title, publishedAt, index } = blog;
+  let { blog_id, activity, banner, title, publishedAt, index, isSensitive } =
+    blog;
   let {
     userAuth: { access_token },
   } = useContext(UserAuth);
@@ -48,6 +49,9 @@ export const ManagePublishedBlogCard = ({ blog }) => {
           src={banner}
           className="max-md:hidden lg:hidden xl:block w-28 h-28 flex-none bg-grey object-cover"
           alt=""
+          style={{
+            filter: isSensitive ? "blur(8px)" : "none",
+          }}
         />
         <div className="flex flex-col justify-between py-2 w-full min-w-[300px]">
           <div className="">
