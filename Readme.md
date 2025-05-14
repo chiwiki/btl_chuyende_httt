@@ -13,6 +13,10 @@ Nếu phát hiện nội dung nhạy cảm, hệ thống sẽ:
 - **Cảnh báo người dùng trước khi đăng**
 - **Cảnh báo người đọc trước khi xem nội dung**
 
+## Video demo
+
+<img src='img/demo.gif' width=600>
+
 ## 🚀 Cài đặt
 
 ### 1. Clone dự án
@@ -35,6 +39,12 @@ cd backend
 
 ```bash
 cp .env.example .env
+```
+
+- Tạo file service account
+
+```bash
+touch serviceAccount.json
 ```
 
 - Nếu chạy lần đầu thì tải thư viện node_modules vào trong dự án
