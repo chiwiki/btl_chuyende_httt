@@ -53,7 +53,7 @@ const BlogPostCard = ({ content, author }) => {
           alt=""
           className="w-full h-full aspect-square object-cover"
           style={{
-            filter: isSensitive ? "blur(6px)" : "none",
+            filter: isSensitive ? "blur(8px)" : "none",
           }}
         />
       </div>
