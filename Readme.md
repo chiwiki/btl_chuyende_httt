@@ -1,5 +1,8 @@
 # 🧠 Blog NSFW Detection with NSFWJS
 
+👋 **Xin chào đến với nhóm 18 lớp 1 môn chuyên đề hệ thống thông tin!**  
+Đây là sản phẩm thực hành của nhóm trong quá trình tìm hiểu và triển khai mô hình kiểm duyệt ảnh phản cảm bằng **NSFWJS** vào hệ thống viết blog.
+
 ## 📌 Giới thiệu
 
 Đây là một hệ thống kiểm duyệt ảnh phản cảm tích hợp vào trang web viết blog sử dụng thư viện [NSFWJS](https://github.com/infinitered/nsfwjs). Ứng dụng cho phép người dùng đăng ký tài khoản, viết blog, chèn hình ảnh và sử dụng mô hình học máy chạy trên trình duyệt để phát hiện các nội dung phản cảm không phù hợp.
