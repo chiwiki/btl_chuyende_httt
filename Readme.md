@@ -24,6 +24,12 @@ cd btl_chuyende_httt
 
 ### 2. Chạy backend
 
+- Chuyển đến thư mục backend
+
+```bash
+cd backend
+```
+
 - Tạo biến môi trường
 
 ```bash
@@ -44,11 +50,16 @@ npm start
 
 ### 2. Chạy frontend
 
+- Chuyển đến thư mục frontend
+
+````bash
+cd frontend
+
 - Tạo biến môi trường
 
 ```bash
 cp .env.example .env
-```
+````
 
 - Nếu chạy lần đầu thì tải thư viện node_modules vào trong dự án
 
